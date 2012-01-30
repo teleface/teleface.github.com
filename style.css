@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-image: url(tilegrain.png);
+}
+
+a:link, a:visited {
+	color: #4083A9;
+}
+
+a:hover {
+	/*text-decoration: none;*/
+	color: #205F82;
+}
+
+#content {
+	width: 900px;
+	padding: 20px;
+	margin: 20px auto;
+	color: #333;
+}
+
+#content h1 {
+	font: 800 64px/64px "open sans", Verdana;
+	color: #333;
+	margin-bottom: 0.0em;
+	text-transform: uppercase;
+	text-shadow: #939393 0 1px 2px;
+	vertical-align: top;
+}
+
+#content img {
+	margin-right: 15px;
+}
+
+#content h2 {
+	font: italic 600 30px/30px "open sans", Verdana;
+	margin: 0.5em 0.0em;
+	text-shadow: #a8a8a8 0 1px 1px;
+}
+
+#content hr {
+	border: 1px solid #fff;
+}
+
+#content ul {
+	list-style-position: inside;
+	margin: 0.5em;
+}
+
+#content div {
+	font: 400 16px/24px "gentium book basic", Georgia;
+	margin-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: ;
+	color: #777;
+	border-bottom: 1px solid #d5d5d5;
+	text-shadow: #fffeff 0 1px 2px;
+	text-shadow: #ddd 0 1px 1px;
+	text-align: justify;
+	display: block;
+}
+
+#content div img {
+	float: right;
+	margin: 0 0 0 15px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+
+#content #footer {
+	border: 0;
+	margin-top: 1em;
+	color: #aaa;
+	text-shadow: #fffeff 0 1px 2px;
+}
