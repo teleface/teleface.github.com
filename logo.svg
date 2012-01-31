@@ -64,6 +64,14 @@
        r="30"
        gradientTransform="matrix(1.9105489,-0.18705533,0.11572604,1.2224126,-27.693993,-24.23396)"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3829">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.78"
+         id="feGaussianBlur3831" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -72,9 +80,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="24.109339"
-     inkscape:cy="51.331301"
+     inkscape:zoom="4"
+     inkscape:cx="23.06905"
+     inkscape:cy="62.899843"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -84,7 +92,7 @@
      inkscape:window-height="856"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
        id="grid2993"
@@ -111,6 +119,11 @@
      inkscape:groupmode="layer"
      transform="translate(0,38)">
     <path
+       inkscape:connector-curvature="0"
+       id="path2999"
+       d="m 9.2497368,-31.5 c -2.0775,0 -3.75,1.6725 -3.75,3.75 l 0,42.5 c 0,2.0775 1.6725,3.75 3.75,3.75 l 36.2500002,0 c 4.567263,2.855754 5,4 5,10 3,-3 5,-7 5,-10 l 6.25,0 c 2.0775,0 3.75,-1.6725 3.75,-3.75 l 0,-42.5 c 0,-2.0775 -1.6725,-3.75 -3.75,-3.75 l -52.5000002,0 z"
+       style="opacity:0.26107148000000002;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter3829)" />
+    <path
        style="fill:url(#linearGradient3775);fill-opacity:1;stroke:#88b8e0;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 8.25,-32.5 c -2.0775,0 -3.75,1.6725 -3.75,3.75 l 0,42.5 c 0,2.0775 1.6725,3.75 3.75,3.75 l 36.25,0 c 4.567263,2.855754 5,4 5,10 3,-3 5,-7 5,-10 l 6.25,0 c 2.0775,0 3.75,-1.6725 3.75,-3.75 l 0,-42.5 c 0,-2.0775 -1.6725,-3.75 -3.75,-3.75 l -52.5,0 z"
        id="rect2995"
@@ -120,18 +133,5 @@
        d="M 8.6875,-32 C 6.644625,-32 5,-30.3275 5,-28.25 L 5,-3.125 C 13.53302,-1.2862 23.131579,-0.25 33.270833,-0.25 44.398953,-0.25 54.866829,-1.499029 64,-3.6875 L 64,-28.25 C 64,-30.3275 62.355375,-32 60.3125,-32 l -51.625,0 z"
        id="path3777"
        inkscape:connector-curvature="0" />
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4311"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="translate(0,-38)"><flowRegion
-         id="flowRegion4313"><rect
-           id="rect4315"
-           width="303"
-           height="165"
-           x="-199"
-           y="-228" /></flowRegion><flowPara
-         id="flowPara4317">Drop shadow:</flowPara><flowPara
-         id="flowPara4319">2 50% 4 4</flowPara><flowPara
-         id="flowPara4351">1.5 60% 0 1</flowPara></flowRoot>  </g>
+  </g>
 </svg>
