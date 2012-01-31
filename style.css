@@ -4,7 +4,7 @@
 }
 
 body {
-	background-image: url(tilegrain.png);
+	background: url(tilegrain-gradient.png) repeat-x;
 }
 
 a:link, a:visited {
@@ -16,6 +16,13 @@ a:hover {
 	color: #205F82;
 }
 
+#content .clear {
+	clear: right;
+	margin: 0;
+	padding: 0;
+	border-bottom: 0;
+}
+
 #content {
 	width: 900px;
 	padding: 20px;
@@ -25,11 +32,16 @@ a:hover {
 
 #content h1 {
 	font: 800 64px/64px "open sans", Verdana;
-	color: #333;
-	margin-bottom: 0.0em;
+	color: #4fa9f0;
 	text-transform: uppercase;
-	text-shadow: #939393 0 1px 2px;
+	text-shadow: #3371a2 0 1px 2px;
 	vertical-align: top;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+#highlight {
+	vertical-align: top;
+	color: #333;
 }
 
 #content img {
@@ -52,11 +64,10 @@ a:hover {
 }
 
 #content div {
-	font: 400 16px/24px "gentium book basic", Georgia;
+	font: 400 16px/24px "gentium book basic", Palatino, "Palatino Linotype", serif;
 	margin-top: 1em;
 	padding-bottom: 1em;
-	margin-bottom: ;
-	color: #777;
+	color: #666;
 	border-bottom: 1px solid #d5d5d5;
 	text-shadow: #fffeff 0 1px 2px;
 	text-shadow: #ddd 0 1px 1px;
